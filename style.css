@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(106, 48, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(106, 48, 149, 1) 0%,
+    rgba(161, 98, 214, 1) 42%,
+    rgba(168, 103, 201, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+background: rgba(255, 255, 255, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.8px);
+-webkit-backdrop-filter: blur(3.8px);
+border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #cd34db;
+  border-radius: 15px;
+  font-size: 1rem;
+  height: 3.5rem;
+}
+
+.search-btn {
+  background-color: #c646cb;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+  transition: backgroung-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-btn:hover {
+  background-color: #ff00f7;
+}
+.city-date-section .city {
+  font-size: 2rem;
+  opacity: 0.9;
+}
+
+.city-date-section .date {
+  background-color: #dea7dc;
+}
+
+
+
+.temperature-info .temp {
+  font-size: 10rem;
+}
+
+
+
+.temperature-info .description i {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.temperature-info .description span {
+  font-size: 1.5rem;
+}
+
+.wind-info,
+.humidity-info,
+.visibility-info {
+  background-color: #a867c9;
+  width: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: rgba(248, 204, 245, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.8px);
+-webkit-backdrop-filter: blur(3.8px);
+border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+.additional-info .material-icons {
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+
